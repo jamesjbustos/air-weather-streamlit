@@ -4,7 +4,7 @@ This web app displays weather and air quality data for cities around the world, 
 
 ![Weather and Air Quality Web App Screenshot](https://user-images.githubusercontent.com/45052719/230487390-269d11a9-ed7e-4aa1-8de1-93c7d61cd182.gif)
 
-<a href="https://air-weather.streamlit.app/" target="_blank">Live demo</a>
+[Live demo](https://air-weather.streamlit.app/)
 
 ## Features
 
