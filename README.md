@@ -2,7 +2,8 @@
 
 This web app displays weather and air quality data for cities around the world, powered by AirVisual API and built using Streamlit.
 
-![Weather and Air Quality Web App Screenshot](https://imgur.com/gallery/fBlWr8Q)
+![Weather and Air Quality Web App Screenshot](https://user-images.githubusercontent.com/45052719/230487390-269d11a9-ed7e-4aa1-8de1-93c7d61cd182.gif)
+
 
 ## Features
 
