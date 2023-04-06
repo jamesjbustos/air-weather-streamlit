@@ -47,10 +47,10 @@ pip install -r requirements.txt
 
 4. Get a free API key from [AirVisual API](https://www.iqair.com/air-pollution-data-api).
 
-5. Open `main.py` in your favorite text editor, and replace the following line with your API key:
+5. Create a `secrets.toml` file inside the `.streamlit` folder in the root directory of the project. Add your API key to the file in the following format:
 
 ```bash
-api_key="your_key"
+api_secret="YOUR_API_KEY"
 ```
 
 4. Run the Streamlit app.

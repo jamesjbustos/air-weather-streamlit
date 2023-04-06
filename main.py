@@ -9,8 +9,8 @@ st.set_page_config(
     page_icon=":sun_small_cloud:"
 )
 
-#Add your API key here
-api_key=""
+# API Key
+api_key = st.secrets["api_secret"]
 
 st.title(":partly_sunny_rain: Weather and Air Quality Web App :leaves:")
 st.subheader("Powered by :green[Streamlit] + :green[AirVisual API]")
