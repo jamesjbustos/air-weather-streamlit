@@ -12,7 +12,7 @@ st.set_page_config(
 # API Key
 api_key = st.secrets["api_secret"]
 
-st.title("🌦️Weather and Air Quality🍃")
+st.title("🌦️Weather & Air Quality🍃")
 st.subheader("Powered by :green[Streamlit] + :green[AirVisual API]")
 
 
