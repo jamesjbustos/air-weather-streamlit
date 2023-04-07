@@ -91,11 +91,12 @@ if category == "By City, State, and Country":
                             if aqi_data_dict["status"] == "success":
                                 data = aqi_data_dict["data"]
                                 city_name = data['city']
+                                state_name = data['state']
                                 temp_celsius = data['current']['weather']['tp']
                                 temp_fahrenheit = (temp_celsius * 9/5) + 32
                                 
                                 current_date = datetime.now().strftime("%A, %d %B %Y")
-                                st.subheader(f":round_pushpin: {city_name}")
+                                st.subheader(f":round_pushpin: {city_name}, {state_name}")
                                 st.caption(f':date: {current_date}')   
                                 
                                 col1, col2, col3 = st.columns([2, 1, 1])
@@ -123,11 +124,12 @@ elif category == "By Nearest City (IP Address)":
     if aqi_data_dict["status"] == "success":
         data = aqi_data_dict["data"]
         city_name = data['city']
+        state_name = data['state']
         temp_celsius = data['current']['weather']['tp']
         temp_fahrenheit = (temp_celsius * 9/5) + 32
 
         current_date = datetime.now().strftime("%A, %d %B %Y")
-        st.subheader(f":round_pushpin: {city_name}")
+        st.subheader(f":round_pushpin: {city_name}, {state_name}")
         st.caption(f':date: {current_date}')   
 
         col1, col2, col3 = st.columns([2, 1, 1])
@@ -150,11 +152,12 @@ elif category == "By Latitude and Longitude":
         if aqi_data_dict["status"] == "success":
             data = aqi_data_dict["data"]
             city_name = data['city']
+            state_name = data['state']
             temp_celsius = data['current']['weather']['tp']
             temp_fahrenheit = (temp_celsius * 9/5) + 32
 
             current_date = datetime.now().strftime("%A, %d %B %Y")
-            st.subheader(f":round_pushpin: {city_name}")
+            st.subheader(f":round_pushpin: {city_name}, {state_name}")
             st.caption(f':date: {current_date}')               
             
             col1, col2, col3 = st.columns([2, 1, 1])
